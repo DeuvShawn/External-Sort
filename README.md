@@ -123,17 +123,23 @@
 
 2. **输入**
 
-- 数据文件路径 (`data.txt`)。
+- 数据文件路径 (默认`result/data.txt`)。
 - 缓冲区大小（默认 100）。
 - 对于 K 路归并，需指定归并路数（默认 4）。
 
 3. **输出**
 
-- 排序结果输出到指定文件路径 (`out.txt`)。
+- 排序结果输出到指定文件路径 (默认`result/out.txt`)。
 
 4. **运行示例**
 
 ```bash
+# 在放置代码的目录下进行操作
+mkdir result
+mkdir build
+cd build
+cmake ..
+make
 ./external_sort  # 根据CMakeList.txt进行修改
 ```
 
