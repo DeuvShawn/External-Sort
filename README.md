@@ -135,7 +135,7 @@
 
 ```bash
 # 在放置代码的目录下进行操作
-mkdir result
+mkdir result  # 运行前需要在result目录下放置data.txt
 mkdir build
 cd build
 cmake ..
